@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
-<testcase classname="Desarrollador carga horas al sistema" name="Desarrollador con id existente en el sistema" time="0">
-<skipped><![CDATA[Dado que el desarrollador tiene una cantidad de horas cargadas de "0".......undefined
-Cuando carga "8" horas en el sistema........................................undefined
-Entonces la cantidad total de horas trabajadas para ese desarrollador son "8" horas.undefined
-]]></skipped>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.253917">
+<testcase classname="Desarrollador carga horas al sistema" name="Desarrollador con id existente en el sistema" time="0.253917">
+<system-out><![CDATA[Dado que el desarrollador tiene una cantidad de horas cargadas de "0".......passed
+Cuando carga "8" horas en el sistema........................................passed
+Entonces la cantidad total de horas trabajadas para ese desarrollador son "8" horas.passed
+]]></system-out>
 </testcase>
 </testsuite>
