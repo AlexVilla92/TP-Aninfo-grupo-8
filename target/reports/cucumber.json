@@ -18,29 +18,56 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 247538407,
+              "status": "passed"
             },
             "line": 5,
             "name": "que el desarrollador tiene una cantidad de horas cargadas de \"0\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 62
+                }
+              ],
+              "location": "HorasSteps.que_el_desarrollador_tiene_una_cantidad_de_horas_cargadas_de(String)"
+            },
             "keyword": "Dado "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 132559,
+              "status": "passed"
             },
             "line": 6,
             "name": "carga \"8\" horas en el sistema",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 7
+                }
+              ],
+              "location": "HorasSteps.carga_horas_en_el_sistema(String)"
+            },
             "keyword": "Cuando "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 6246476,
+              "status": "passed"
             },
             "line": 7,
             "name": "la cantidad total de horas trabajadas para ese desarrollador son \"8\" horas",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 66
+                }
+              ],
+              "location": "HorasSteps.la_cantidad_total_de_horas_trabajadas_para_ese_desarrollador_son_horas(String)"
+            },
             "keyword": "Entonces "
           }
         ]
