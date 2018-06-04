@@ -1,0 +1,55 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: es"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Desarrollador con id existente en el sistema",
+        "description": "",
+        "id": "desarrollador-carga-horas-al-sistema;desarrollador-con-id-existente-en-el-sistema",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que el desarrollador tiene una cantidad de horas cargadas de \"0\"",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "carga \"8\" horas en el sistema",
+            "match": {},
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "la cantidad total de horas trabajadas para ese desarrollador son \"8\" horas",
+            "match": {},
+            "keyword": "Entonces "
+          }
+        ]
+      }
+    ],
+    "name": "Desarrollador carga horas al sistema",
+    "description": "",
+    "id": "desarrollador-carga-horas-al-sistema",
+    "keyword": "Característica",
+    "uri": "horas.features.feature"
+  }
+]
