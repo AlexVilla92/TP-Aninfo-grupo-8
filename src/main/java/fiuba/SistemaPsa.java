@@ -15,7 +15,6 @@ public class SistemaPsa {
         this.horasEmpleados = new HashMap<String, Integer>();
     }
 
-
     public Map<String, Integer> getHorasEmpleados() {
         return horasEmpleados;
     }
