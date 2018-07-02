@@ -5,8 +5,6 @@ m
 =src/main/java/fiuba/excepciones/UsuarioNoExisteException.java,6/6/66b447eee7845d45e8d2253fb4deb20cfda1da16
 l
 <src/main/java/fiuba/excepciones/HorasInvalidasException.java,5/7/57ee7ec4f75f75e2c7ca3e35209dd89ea9122bb4
-V
-&src/main/java/fiuba/Desarrollador.java,9/3/93c90788220dd5dc730311a87469274271702f8e
 W
 'src/test/java/fiuba/RunFeatureTest.java,2/9/29b92e3b2a1856fda2e2db443071bdab92d801a7
 b
@@ -15,7 +13,17 @@ S
 #src/test/java/fiuba/HorasSteps.java,e/d/ed9ff8d76f7653139e216927d86c0e9686526a5a
 n
 >src/main/java/fiuba/excepciones/UsuarioYaCargadoException.java,a/4/a41779f0cba70e100edfe35523f2400509daa4c3
-S
-#src/main/java/fiuba/SistemaPsa.java,5/2/52f93fdf70a0aeac255ae17f3d1585ee3dc90ef3
-v
-Fsrc/test/resources/features/consultarHistorialTareasPorRecurso.feature,e/7/e7b64af0e52111bfc462f00579bf3e878f6b02d5
+x
+Hsrc/test/resources/features/consultarHistorialDeTareasPorRecurso.feature,3/9/3906f1f5762ed747c427b1fe712688d506c75f89
+m
+=src/test/resources/features/consularGastosPorProyecto.feature,2/a/2a5b06d8eddb901f50f34f04f533d336d9fe89e2
+p
+@src/test/resources/features/consultarAtributosDeProyecto.feature,8/d/8d8cea9892611819e0f50631df359c41d98c580b
+j
+:src/test/java/fiuba/ConsultarAtributosDeProyectoSteps.java,2/2/22f3cc75dca0972d902a235de2619738319d51cf
+Q
+!src/main/java/fiuba/Proyecto.java,3/4/34e49b70c44393e6731dcf6bb2a51d780e56b1a1
+O
+src/main/java/fiuba/Estado.java,9/3/9393c13accfa8f7f7dccd1deb45e79db5270542d
+P
+ src/main/java/fiuba/Backlog.java,7/f/7f2923317337e9cee99a8ab14919c8a3f173bf6c

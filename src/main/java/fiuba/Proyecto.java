@@ -22,6 +22,7 @@ public class Proyecto {
         this.horasEstimadas = 0;
         this.fechaInicial = "";
         this.fechaFinal = "";
+        this.estado = new Backlog();
     }
 
     public String getNombre() {
@@ -57,8 +58,8 @@ public class Proyecto {
         this.horasEstimadas = horasEstimadas;
     }
 
-    public Estado getEstado() {
-        return estado;
+    public String getEstado() {
+        return this.estado.getEstado();
     }
 
     public void setEstado(Estado estado) {

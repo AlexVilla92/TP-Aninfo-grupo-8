@@ -16,25 +16,18 @@ public class ConsultarAtributosDeProyectoSteps {
     private Proyecto proyecto1;
     private Proyecto proyecto2;
 
-    /*Escenario: Se consulta el estado y la fecha cambientes de un proyecto
-    Dado que se crea el proyecto con los parametros correctos
-    Cuando se cambia el estado del proyecto  y la fecha final a "12/12/18"
-    Entonces el valor de dichos atributos cambian
-
-      Escenario: Se quiere consultar el estado de un proyecto con parametros incorrectos
-    Dado que se crea un proyecto
-    Cuando se quiere setear las horas con -3, se lanza una excepcion
-    Entonces los atributos siguen siendo por default*/
-
     @Dado("^que se crea un proyecto$")
     public void que_se_crea_un_proyecto() throws Throwable {
         this.proyecto1 = new Proyecto("Project 1");
     }
 
-    @Test(expected = HorasInvalidasException.class)
-    @Cuando("^se quiere setear las horas con -(\\d+), se lanza una excepcion$")
-    public void se_quiere_setear_las_horas_con_se_lanza_una_excepcion(Integer horas) throws Throwable {
-        this.proyecto1.setHorasEstimadas(horas);
+    @Cuando("^se quiere setear las horas con \"(.*?)\", se lanza una excepcion$")
+    public void se_quiere_setear_las_horas_con_se_lanza_una_excepcion(String horas) throws Throwable {
+        try {
+            this.proyecto1.setHorasEstimadas(Integer.parseInt(horas));
+        } catch (HorasInvalidasException hie) {
+            Assert.assertTrue(true);
+        }
     }
 
     @Entonces("^los atributos siguen siendo por default$")

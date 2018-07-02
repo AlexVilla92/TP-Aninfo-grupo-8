@@ -1,4 +1,4 @@
-package fiuba;
+package fiuba.excepciones;
 
 public class Desarrollador {
 

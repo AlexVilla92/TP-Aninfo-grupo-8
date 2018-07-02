@@ -1,4 +1,4 @@
-package fiuba;
+package fiuba.excepciones;
 
 import fiuba.excepciones.UsuarioNoExisteException;
 import fiuba.excepciones.UsuarioYaCargadoException;

@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.195843">
-<testcase classname="Se consulta los atributos de un proyecto" name="Se consulta el estado y la fecha cambientes de un proyecto" time="0.190106">
-<failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#10;&#9;at fiuba.ConsultarAtributosDeProyectoSteps.se_cambia_el_estado_del_proyecto_y_la_fecha_final_a(ConsultarAtributosDeProyectoSteps.java:52)&#10;&#9;at ✽.Cuando se cambia el estado del proyecto  y la fecha final a &quot;12/12/18&quot;(consultarAtributosDeProyecto.feature:6)&#10;"><![CDATA[Dado que se crea el proyecto con los parametros correctos...................passed
-Cuando se cambia el estado del proyecto  y la fecha final a "12/12/18"......failed
-Entonces el valor de dichos atributos cambian...............................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at fiuba.ConsultarAtributosDeProyectoSteps.se_cambia_el_estado_del_proyecto_y_la_fecha_final_a(ConsultarAtributosDeProyectoSteps.java:52)
-	at ✽.Cuando se cambia el estado del proyecto  y la fecha final a "12/12/18"(consultarAtributosDeProyecto.feature:6)
-]]></failure>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.236707">
+<testcase classname="Se consulta los atributos de un proyecto" name="Se consulta el estado y la fecha cambientes de un proyecto" time="0.220511">
+<system-out><![CDATA[Dado que se crea el proyecto con los parametros correctos...................passed
+Cuando se cambia el estado del proyecto  y la fecha final a "12/12/18"......passed
+Entonces el valor de dichos atributos cambian...............................passed
+]]></system-out>
 </testcase>
-<testcase classname="Se consulta los atributos de un proyecto" name="Se quiere consultar el estado de un proyecto con parametros incorrectos" time="0.000728">
-<failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#10;&#9;at fiuba.ConsultarAtributosDeProyectoSteps.los_atributos_siguen_siendo_por_default(ConsultarAtributosDeProyectoSteps.java:42)&#10;&#9;at ✽.Entonces los atributos siguen siendo por default(consultarAtributosDeProyecto.feature:12)&#10;"><![CDATA[Dado que se crea un proyecto................................................passed
-Cuando se quiere setear las horas con -3, se lanza una excepcion............passed
-Entonces los atributos siguen siendo por default............................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at fiuba.ConsultarAtributosDeProyectoSteps.los_atributos_siguen_siendo_por_default(ConsultarAtributosDeProyectoSteps.java:42)
-	at ✽.Entonces los atributos siguen siendo por default(consultarAtributosDeProyecto.feature:12)
-]]></failure>
+<testcase classname="Se consulta los atributos de un proyecto" name="Se quiere consultar el estado de un proyecto con parametros incorrectos" time="0.000309">
+<system-out><![CDATA[Dado que se crea un proyecto................................................passed
+Cuando se quiere setear las horas con "-3", se lanza una excepcion..........passed
+Entonces los atributos siguen siendo por default............................passed
+]]></system-out>
 </testcase>
-<testcase classname="Desarrollador carga horas al sistema" name="Desarrollador con id existente en el sistema" time="0.005009">
+<testcase classname="Desarrollador carga horas al sistema" name="Desarrollador con id existente en el sistema" time="0.015887">
 <system-out><![CDATA[Dado que el desarrollador tiene una cantidad de horas cargadas de "0".......passed
 Cuando carga "8" horas en el sistema........................................passed
 Entonces el estado de los atributos del proyecto cambian....................passed

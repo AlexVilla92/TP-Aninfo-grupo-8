@@ -8,6 +8,6 @@ Característica: Se consulta los atributos de un proyecto
 
   Escenario: Se quiere consultar el estado de un proyecto con parametros incorrectos
     Dado que se crea un proyecto
-    Cuando se quiere setear las horas con -3, se lanza una excepcion
+    Cuando se quiere setear las horas con "-3", se lanza una excepcion
     Entonces los atributos siguen siendo por default
 

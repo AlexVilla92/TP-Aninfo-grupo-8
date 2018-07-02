@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 184291413,
+              "duration": 211099692,
               "status": "passed"
             },
             "line": 5,
@@ -30,9 +30,8 @@
           },
           {
             "result": {
-              "duration": 5814361,
-              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat fiuba.ConsultarAtributosDeProyectoSteps.se_cambia_el_estado_del_proyecto_y_la_fecha_final_a(ConsultarAtributosDeProyectoSteps.java:52)\n\tat ✽.Cuando se cambia el estado del proyecto  y la fecha final a \"12/12/18\"(consultarAtributosDeProyecto.feature:6)\n",
-              "status": "failed"
+              "duration": 9360621,
+              "status": "passed"
             },
             "line": 6,
             "name": "se cambia el estado del proyecto  y la fecha final a \"12/12/18\"",
@@ -49,7 +48,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 50381,
+              "status": "passed"
             },
             "line": 7,
             "name": "el valor de dichos atributos cambian",
@@ -70,7 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 95064,
+              "duration": 91338,
               "status": "passed"
             },
             "line": 10,
@@ -82,27 +82,26 @@
           },
           {
             "result": {
-              "duration": 395651,
+              "duration": 168068,
               "status": "passed"
             },
             "line": 11,
-            "name": "se quiere setear las horas con -3, se lanza una excepcion",
+            "name": "se quiere setear las horas con \"-3\", se lanza una excepcion",
             "match": {
               "arguments": [
                 {
-                  "val": "3",
+                  "val": "-3",
                   "offset": 32
                 }
               ],
-              "location": "ConsultarAtributosDeProyectoSteps.se_quiere_setear_las_horas_con_se_lanza_una_excepcion(Integer)"
+              "location": "ConsultarAtributosDeProyectoSteps.se_quiere_setear_las_horas_con_se_lanza_una_excepcion(String)"
             },
             "keyword": "Cuando "
           },
           {
             "result": {
-              "duration": 237583,
-              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat fiuba.ConsultarAtributosDeProyectoSteps.los_atributos_siguen_siendo_por_default(ConsultarAtributosDeProyectoSteps.java:42)\n\tat ✽.Entonces los atributos siguen siendo por default(consultarAtributosDeProyecto.feature:12)\n",
-              "status": "failed"
+              "duration": 49888,
+              "status": "passed"
             },
             "line": 12,
             "name": "los atributos siguen siendo por default",
@@ -139,7 +138,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4347580,
+              "duration": 15380979,
               "status": "passed"
             },
             "line": 5,
@@ -157,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 603765,
+              "duration": 125430,
               "status": "passed"
             },
             "line": 6,
@@ -175,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 57982,
+              "duration": 380512,
               "status": "passed"
             },
             "line": 7,

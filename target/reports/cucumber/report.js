@@ -39,7 +39,7 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.que_se_crea_el_proyecto_con_los_parametros_correctos()"
 });
 formatter.result({
-  "duration": 184291413,
+  "duration": 211099692,
   "status": "passed"
 });
 formatter.match({
@@ -52,15 +52,15 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.se_cambia_el_estado_del_proyecto_y_la_fecha_final_a(String)"
 });
 formatter.result({
-  "duration": 5814361,
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat fiuba.ConsultarAtributosDeProyectoSteps.se_cambia_el_estado_del_proyecto_y_la_fecha_final_a(ConsultarAtributosDeProyectoSteps.java:52)\n\tat ✽.Cuando se cambia el estado del proyecto  y la fecha final a \"12/12/18\"(consultarAtributosDeProyecto.feature:6)\n",
-  "status": "failed"
+  "duration": 9360621,
+  "status": "passed"
 });
 formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.el_valor_de_dichos_atributos_cambian()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 50381,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 9,
@@ -77,7 +77,7 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
-  "name": "se quiere setear las horas con -3, se lanza una excepcion",
+  "name": "se quiere setear las horas con \"-3\", se lanza una excepcion",
   "keyword": "Cuando "
 });
 formatter.step({
@@ -89,29 +89,28 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.que_se_crea_un_proyecto()"
 });
 formatter.result({
-  "duration": 95064,
+  "duration": 91338,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "3",
+      "val": "-3",
       "offset": 32
     }
   ],
-  "location": "ConsultarAtributosDeProyectoSteps.se_quiere_setear_las_horas_con_se_lanza_una_excepcion(Integer)"
+  "location": "ConsultarAtributosDeProyectoSteps.se_quiere_setear_las_horas_con_se_lanza_una_excepcion(String)"
 });
 formatter.result({
-  "duration": 395651,
+  "duration": 168068,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.los_atributos_siguen_siendo_por_default()"
 });
 formatter.result({
-  "duration": 237583,
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat fiuba.ConsultarAtributosDeProyectoSteps.los_atributos_siguen_siendo_por_default(ConsultarAtributosDeProyectoSteps.java:42)\n\tat ✽.Entonces los atributos siguen siendo por default(consultarAtributosDeProyecto.feature:12)\n",
-  "status": "failed"
+  "duration": 49888,
+  "status": "passed"
 });
 formatter.uri("horas.features.feature");
 formatter.feature({
@@ -160,7 +159,7 @@ formatter.match({
   "location": "HorasSteps.que_el_desarrollador_tiene_una_cantidad_de_horas_cargadas_de(String)"
 });
 formatter.result({
-  "duration": 4347580,
+  "duration": 15380979,
   "status": "passed"
 });
 formatter.match({
@@ -173,14 +172,14 @@ formatter.match({
   "location": "HorasSteps.carga_horas_en_el_sistema(String)"
 });
 formatter.result({
-  "duration": 603765,
+  "duration": 125430,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.el_estado_de_los_atributos_del_proyecto_cambian()"
 });
 formatter.result({
-  "duration": 57982,
+  "duration": 380512,
   "status": "passed"
 });
 });
