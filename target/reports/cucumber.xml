@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.236707">
-<testcase classname="Se consulta los atributos de un proyecto" name="Se consulta el estado y la fecha cambientes de un proyecto" time="0.220511">
-<system-out><![CDATA[Dado que se crea el proyecto con los parametros correctos...................passed
-Cuando se cambia el estado del proyecto  y la fecha final a "12/12/18"......passed
-Entonces el valor de dichos atributos cambian...............................passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="3" time="0.290979">
+<testcase classname="Se consulta los atributos de un proyecto" name="Se consulta el estado de un proyecto que se encuentra suspendido" time="0.28849">
+<failure message="java.lang.NullPointerException&#10;&#9;at fiuba.RegistroDeHoras.agregarRegistroProyecto(RegistroDeHoras.java:17)&#10;&#9;at fiuba.ConsultarAtributosDeProyectoSteps.un_proyecto_con_tareas(ConsultarAtributosDeProyectoSteps.java:48)&#10;&#9;at ✽.Dado un proyecto con 3 tareas(consultarAtributosDeProyecto.feature:5)&#10;"><![CDATA[Dado un proyecto con 3 tareas...............................................failed
+Cuando el recurso "pablo" realiza las tareas con id 1, 2 y 3................undefined
+Entonces el estado del proyecto es cambiado a "revision" por el pl..........skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at fiuba.RegistroDeHoras.agregarRegistroProyecto(RegistroDeHoras.java:17)
+	at fiuba.ConsultarAtributosDeProyectoSteps.un_proyecto_con_tareas(ConsultarAtributosDeProyectoSteps.java:48)
+	at ✽.Dado un proyecto con 3 tareas(consultarAtributosDeProyecto.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Se consulta los atributos de un proyecto" name="Se consulta la cantidad de horas que consumio un proyecto" time="0.002432">
+<system-out><![CDATA[Dado que se crea un proyecto con 3 tareas de 2 horas cada una...............passed
+Cuando el recurso "alex" realiza dos tareas en 1 hora cada uno..............passed
+Entonces el tiempo consumido del proyecto es 2 y el tiempo restante es 4....passed
 ]]></system-out>
 </testcase>
-<testcase classname="Se consulta los atributos de un proyecto" name="Se quiere consultar el estado de un proyecto con parametros incorrectos" time="0.000309">
-<system-out><![CDATA[Dado que se crea un proyecto................................................passed
-Cuando se quiere setear las horas con "-3", se lanza una excepcion..........passed
-Entonces los atributos siguen siendo por default............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Desarrollador carga horas al sistema" name="Desarrollador con id existente en el sistema" time="0.015887">
-<system-out><![CDATA[Dado que el desarrollador tiene una cantidad de horas cargadas de "0".......passed
-Cuando carga "8" horas en el sistema........................................passed
-Entonces el estado de los atributos del proyecto cambian....................passed
-]]></system-out>
+<testcase classname="Se consulta los atributos de un proyecto" name="Se quiere consultar el estado de un proyecto con parametros incorrectos" time="0.000057">
+<skipped><![CDATA[Dado que se crea un proyecto................................................passed
+Cuando se quiere setear la cantidad de meses estimados con "-3", se lanza una excepcion.undefined
+Entonces los atributos siguen siendo por default............................skipped
+]]></skipped>
 </testcase>
 </testsuite>

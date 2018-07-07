@@ -1,6 +1,6 @@
 package fiuba;
 
-public abstract class Estado {
+public abstract class Estado {//transformarlo en enum
 
     protected String estado;
 

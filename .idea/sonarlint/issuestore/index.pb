@@ -7,10 +7,6 @@ l
 <src/main/java/fiuba/excepciones/HorasInvalidasException.java,5/7/57ee7ec4f75f75e2c7ca3e35209dd89ea9122bb4
 W
 'src/test/java/fiuba/RunFeatureTest.java,2/9/29b92e3b2a1856fda2e2db443071bdab92d801a7
-b
-2src/test/resources/features/horas.features.feature,c/b/cb79b4f3b69b92925ff7fe43fb8c264bd930f599
-S
-#src/test/java/fiuba/HorasSteps.java,e/d/ed9ff8d76f7653139e216927d86c0e9686526a5a
 n
 >src/main/java/fiuba/excepciones/UsuarioYaCargadoException.java,a/4/a41779f0cba70e100edfe35523f2400509daa4c3
 x
@@ -27,3 +23,15 @@ O
 src/main/java/fiuba/Estado.java,9/3/9393c13accfa8f7f7dccd1deb45e79db5270542d
 P
  src/main/java/fiuba/Backlog.java,7/f/7f2923317337e9cee99a8ab14919c8a3f173bf6c
+_
+/src/main/java/fiuba/excepciones/SistemaPsa.java,7/1/71c1e8c935a0cd071609b453982acb4d4fcb2240
+b
+2src/main/java/fiuba/excepciones/Desarrollador.java,d/9/d99f1f9a86fa0ef313c64c188dda013e4f534570
+X
+(src/main/java/fiuba/RegistroDeHoras.java,1/e/1ea64369cb71b95b7c30f4982811b0e1c5136547
+Y
+)src/main/java/fiuba/RegistroProyecto.java,5/1/5192874b2d708510330addc11e19db5ee111dca8
+P
+ src/main/java/fiuba/Recurso.java,c/8/c87897ea9e867bc12e0a37f178cf8559d293a713
+N
+src/main/java/fiuba/Tarea.java,4/7/47da7b5bb5efc9fe8d459b2749f791ab8ad409db
