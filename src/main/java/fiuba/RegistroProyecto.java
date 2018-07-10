@@ -1,31 +1,23 @@
 package fiuba;
 
 public class RegistroProyecto {
-    private Integer tareaId;
-    private Integer proyectoId;
+    private Tarea tarea;
+    private Proyecto proyecto;
     private String recursoNombre;
     private Integer horasTrabajadas;
 
-    public RegistroProyecto(Integer idProyecto, Integer idTarea, String nombre) {
-        this.tareaId = idTarea;
-        this.proyectoId = idProyecto;
+    public RegistroProyecto(Proyecto proyecto, Tarea tarea, String nombre) {
+        this.tarea = tarea;
+        this.proyecto = proyecto;
         this.recursoNombre = nombre;
         this.horasTrabajadas = 0;
     }
-    public Integer getTareaId() {
-        return tareaId;
-    }
 
-    public void setTareaId(Integer tareaId) {
-        this.tareaId = tareaId;
-    }
-
-    public Integer getProyectoId() {
-        return proyectoId;
-    }
-
-    public void setProyectoId(Integer proyectoId) {
-        this.proyectoId = proyectoId;
+    public RegistroProyecto(Proyecto proyecto, Tarea tarea) {
+        this.tarea = tarea;
+        this.proyecto = proyecto;
+        this.recursoNombre = "";
+        this.horasTrabajadas = 0;
     }
 
     public String getRecursoNombre() {
@@ -34,5 +26,29 @@ public class RegistroProyecto {
 
     public void setRecursoNombre(String recursoNombre) {
         this.recursoNombre = recursoNombre;
+    }
+
+    public Tarea getTarea() {
+        return tarea;
+    }
+
+    public void setTarea(Tarea tarea) {
+        this.tarea = tarea;
+    }
+
+    public Integer getHorasTrabajadas() {
+        return horasTrabajadas;
+    }
+
+    public void setHorasTrabajadas(Integer horasTrabajadas) {
+        this.horasTrabajadas = horasTrabajadas;
+    }
+
+    public Proyecto getProyecto() {
+        return proyecto;
+    }
+
+    public void setProyecto(Proyecto proyecto) {
+        this.proyecto = proyecto;
     }
 }

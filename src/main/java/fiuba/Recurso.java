@@ -1,20 +1,26 @@
 package fiuba;
 
-import org.omg.CORBA.INTERNAL;
-
 public class Recurso {
-    private static Integer legajoUniversal = 0;
-    private Integer legajo;
-    private String nombre;
-    private String rol;
-    private Double sueldo;
+    protected static Integer legajoUniversal = 0;
+    protected Integer legajo;
+    protected String nombre;
+    protected String rol;
+    protected Double sueldo;
 
-    public Recurso(String nombreDev1, String rolDev, Double sueldo) {
+    public Recurso(String nombre, String rol, Double sueldo) {
+        this.iniciarLegajo();
+        this.nombre = nombre;
+        this.rol = rol;
+        this.sueldo = sueldo;
+    }
+
+    public Recurso() {
+        this.iniciarLegajo();
+    }
+
+    private void iniciarLegajo() {
         incLegajo();
         this.legajo = legajoUniversal;
-        this.nombre = nombreDev1;
-        this.rol = rolDev;
-        this.sueldo = sueldo;
     }
 
     public static void incLegajo() {

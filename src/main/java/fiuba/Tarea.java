@@ -1,29 +1,33 @@
 package fiuba;
 
 public class Tarea {
-    private static Integer idTarea = 0;
+    private static final String BACKLOG = "backlog";
+    private static final String PROGRESS = "progreso";
+    private static final String REVISION = "revision";
+    private static final String TERMINADO = "terminado";
+    private static Integer idGeneral = 0;
+    private Integer idTarea;
     private String fechaInicial;
     private String fechaFinal;
     private Integer horasEstimado;
     private Estado estado;
     private String descripcion;
 
-    public Tarea() {
+    public Tarea(String fechaInicial, String fechaFinal, Integer duracionTareas) {
         Tarea.incIdCuenta();
-    }
-
-    public Tarea(String fechaInicial, String fechaFinal) {
-        Tarea.incIdCuenta();
+        this.idTarea = idGeneral;
         this.fechaFinal = fechaFinal;
         this.fechaInicial = fechaInicial;
+        this.horasEstimado = duracionTareas;
+        this.estado = Estado.BACKLOG;
     }
 
     public static void incIdCuenta() {
-        idTarea++;
+        idGeneral++;
     }
 
     public Integer getIdTarea() {
-        return idTarea;
+        return this.idTarea;
     }
 
     public String getFechaInicial() {
@@ -50,12 +54,8 @@ public class Tarea {
         this.horasEstimado = tiempoEstimado;
     }
 
-    public Estado getEstado() {
-        return estado;
-    }
-
-    public void setEstado(Estado estado) {
-        this.estado = estado;
+    public String getEstado() {
+        return this.estado.name();
     }
 
     public String getDescripcion() {
@@ -64,5 +64,18 @@ public class Tarea {
 
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
+    }
+
+    public void avanzarEstado() {
+        switch (this.estado.name().toLowerCase()) {
+        case BACKLOG : this.setEstado(Estado.PROGRESO);break;
+        case PROGRESS: this.setEstado(Estado.REVISION);break;
+        case REVISION: this.setEstado(Estado.TERMINADO);break;
+        default: return;
+        }
+    }
+
+    public void setEstado(Estado estado) {
+        this.estado = estado;
     }
 }
