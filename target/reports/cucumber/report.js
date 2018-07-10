@@ -53,7 +53,7 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.un_proyecto_con_id_el_cual_cuenta_con_tareas_de_hs_de_duracion_estimadas_cada_una(Integer,Integer,Integer)"
 });
 formatter.result({
-  "duration": 249420071,
+  "duration": 323298583,
   "status": "passed"
 });
 formatter.match({
@@ -82,7 +82,7 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.el_recurso_realiza_las_tareas_con_id_y_en_hs_cada_una(String,Integer,Integer,Integer,Integer)"
 });
 formatter.result({
-  "duration": 2557229,
+  "duration": 1129092,
   "status": "passed"
 });
 formatter.match({
@@ -99,7 +99,7 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.el_estado_del_proyecto_con_id_es_cambiado_a_por_el_lider_de_proyecto(Integer,String)"
 });
 formatter.result({
-  "duration": 2594573,
+  "duration": 4715970,
   "status": "passed"
 });
 formatter.scenario({
@@ -139,7 +139,7 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.que_se_crea_un_proyecto_con_tareas_de_horas_cada_una(Integer,Integer)"
 });
 formatter.result({
-  "duration": 210601,
+  "duration": 324064,
   "status": "passed"
 });
 formatter.match({
@@ -164,7 +164,7 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.el_recurso_realiza_las_tareas_con_id_y_en_hora_cada_uno(String,Integer,Integer,Integer)"
 });
 formatter.result({
-  "duration": 1126021,
+  "duration": 352499,
   "status": "passed"
 });
 formatter.match({
@@ -185,7 +185,7 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.el_tiempo_consumido_por_el_proyecto_con_id_es_de_hs_y_el_tiempo_estimado_restante_es_de_hs(Integer,Integer,Integer)"
 });
 formatter.result({
-  "duration": 402612,
+  "duration": 338422,
   "status": "passed"
 });
 formatter.scenario({
@@ -215,7 +215,7 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.que_se_crea_un_proyecto_aun_sin_tareas()"
 });
 formatter.result({
-  "duration": 84580,
+  "duration": 84983,
   "status": "passed"
 });
 formatter.match({
@@ -228,7 +228,7 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.se_quiere_setear_el_tiempo_estimado_del_proyecto_en_meses_con_un_valor_de(String)"
 });
 formatter.result({
-  "duration": 225846,
+  "duration": 223113,
   "status": "passed"
 });
 formatter.match({
@@ -241,7 +241,7 @@ formatter.match({
   "location": "ConsultarAtributosDeProyectoSteps.el_atributo_de_tiempo_estimado_del_proyecto_sigue_teniendo_el_valor_por_default_es_decir(Integer)"
 });
 formatter.result({
-  "duration": 148750,
+  "duration": 650653,
   "status": "passed"
 });
 formatter.uri("consultarGastosPorProyecto.feature");
@@ -291,7 +291,7 @@ formatter.match({
   "location": "ConsultarGastosPorProyectoSteps.un_proyecto_de_meses_de_duracion(Integer)"
 });
 formatter.result({
-  "duration": 210851,
+  "duration": 8991071,
   "status": "passed"
 });
 formatter.match({
@@ -316,7 +316,7 @@ formatter.match({
   "location": "ConsultarGastosPorProyectoSteps.a_dicho_proyecto_se_asignan_los_recursos_y_con_salarios_y_respectivamente(String,String,Integer,Integer)"
 });
 formatter.result({
-  "duration": 346319,
+  "duration": 291491,
   "status": "passed"
 });
 formatter.match({
@@ -341,20 +341,20 @@ formatter.match({
   "location": "ConsultarGastosPorProyectoSteps.el_costo_del_proyecto_es_x(Integer,Integer,Integer,Integer)"
 });
 formatter.result({
-  "duration": 382763,
+  "duration": 2133359,
   "status": "passed"
 });
 formatter.scenario({
   "line": 9,
-  "name": "Se consulta la cantidad de dinero que consumio un proyecto en desarrollo",
+  "name": "Se consulta la cantidad de dinero que consumio un proyecto que todavia esta en desarrollo",
   "description": "",
-  "id": "se-consulta-la-cantidad-de-dinero-que-consumio-un-proyecto;se-consulta-la-cantidad-de-dinero-que-consumio-un-proyecto-en-desarrollo",
+  "id": "se-consulta-la-cantidad-de-dinero-que-consumio-un-proyecto;se-consulta-la-cantidad-de-dinero-que-consumio-un-proyecto-que-todavia-esta-en-desarrollo",
   "type": "scenario",
   "keyword": "Escenario"
 });
 formatter.step({
   "line": 10,
-  "name": "un proyecto de 3 meses de duracion estimada, y 2 mes consumido",
+  "name": "un proyecto de 3 meses de duracion estimada, el cual lleva 2 meses consumidos",
   "keyword": "Dado "
 });
 formatter.step({
@@ -364,19 +364,132 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "el costo del proyecto es 2 x 14000 \u003d 28000",
+  "name": "el costo del proyecto es de 2 x 14000 \u003d 28000",
   "keyword": "Entonces "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "3",
+      "offset": 15
+    },
+    {
+      "val": "2",
+      "offset": 59
+    }
+  ],
+  "location": "ConsultarGastosPorProyectoSteps.un_proyecto_de_meses_de_duracion_estimada_y_mes_consumido(Integer,Integer)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 273684,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "pablo",
+      "offset": 40
+    },
+    {
+      "val": "14000",
+      "offset": 65
+    }
+  ],
+  "location": "ConsultarGastosPorProyectoSteps.a_dicho_proyecto_se_asigna_el_recurso_con_un_salario_de(String,Integer)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 195318,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 28
+    },
+    {
+      "val": "14000",
+      "offset": 32
+    },
+    {
+      "val": "28000",
+      "offset": 40
+    }
+  ],
+  "location": "ConsultarGastosPorProyectoSteps.el_costo_del_proyecto_es_de_x(Integer,Integer,Integer)"
+});
+formatter.result({
+  "duration": 263545,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "Se consulta la cantidad de dinero que consumio un proyecto que no esta iniciado",
+  "description": "",
+  "id": "se-consulta-la-cantidad-de-dinero-que-consumio-un-proyecto;se-consulta-la-cantidad-de-dinero-que-consumio-un-proyecto-que-no-esta-iniciado",
+  "type": "scenario",
+  "keyword": "Escenario"
+});
+formatter.step({
+  "line": 15,
+  "name": "un proyecto de 6 meses de duracion estimada",
+  "keyword": "Dado "
+});
+formatter.step({
+  "line": 16,
+  "name": "se le asignan 0 recursos al proyecto",
+  "keyword": "Cuando "
+});
+formatter.step({
+  "line": 17,
+  "name": "el costo del proyecto es 6 x 0 \u003d 0",
+  "keyword": "Entonces "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "6",
+      "offset": 15
+    }
+  ],
+  "location": "ConsultarGastosPorProyectoSteps.un_proyecto_de_meses_de_duracion_estimada(Integer)"
+});
+formatter.result({
+  "duration": 157913,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "0",
+      "offset": 14
+    }
+  ],
+  "location": "ConsultarGastosPorProyectoSteps.se_le_asignan_recursos_al_proyecto(int)"
+});
+formatter.result({
+  "duration": 1315477,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "6",
+      "offset": 25
+    },
+    {
+      "val": "0",
+      "offset": 29
+    },
+    {
+      "val": "0",
+      "offset": 33
+    }
+  ],
+  "location": "ConsultarGastosPorProyectoSteps.el_costo_del_proyecto_es_x(Integer,Integer,Integer)"
+});
+formatter.result({
+  "duration": 262000,
+  "status": "passed"
 });
 });

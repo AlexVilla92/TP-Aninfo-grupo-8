@@ -9,10 +9,6 @@ W
 'src/test/java/fiuba/RunFeatureTest.java,2/9/29b92e3b2a1856fda2e2db443071bdab92d801a7
 n
 >src/main/java/fiuba/excepciones/UsuarioYaCargadoException.java,a/4/a41779f0cba70e100edfe35523f2400509daa4c3
-x
-Hsrc/test/resources/features/consultarHistorialDeTareasPorRecurso.feature,3/9/3906f1f5762ed747c427b1fe712688d506c75f89
-m
-=src/test/resources/features/consularGastosPorProyecto.feature,2/a/2a5b06d8eddb901f50f34f04f533d336d9fe89e2
 p
 @src/test/resources/features/consultarAtributosDeProyecto.feature,8/d/8d8cea9892611819e0f50631df359c41d98c580b
 j
@@ -21,8 +17,6 @@ Q
 !src/main/java/fiuba/Proyecto.java,3/4/34e49b70c44393e6731dcf6bb2a51d780e56b1a1
 O
 src/main/java/fiuba/Estado.java,9/3/9393c13accfa8f7f7dccd1deb45e79db5270542d
-P
- src/main/java/fiuba/Backlog.java,7/f/7f2923317337e9cee99a8ab14919c8a3f173bf6c
 _
 /src/main/java/fiuba/excepciones/SistemaPsa.java,7/1/71c1e8c935a0cd071609b453982acb4d4fcb2240
 b
@@ -35,3 +29,17 @@ P
  src/main/java/fiuba/Recurso.java,c/8/c87897ea9e867bc12e0a37f178cf8559d293a713
 N
 src/main/java/fiuba/Tarea.java,4/7/47da7b5bb5efc9fe8d459b2749f791ab8ad409db
+n
+>src/main/java/fiuba/excepciones/ProyectoNoExisteException.java,e/f/ef1b9b3ac56f991120f8035f6cb84ad4973ee460
+V
+&src/main/java/fiuba/LiderProyecto.java,5/4/5440e9b0d3bbb5121514498ee28fcf61052a52cf
+V
+&src/main/java/fiuba/Desarrollador.java,9/3/93c90788220dd5dc730311a87469274271702f8e
+m
+=src/main/java/fiuba/excepciones/RecursoInvalidoException.java,2/8/287be3bf895de2a0afc158d73cc183ac3cc47082
+n
+>src/test/resources/features/consultarGastosPorProyecto.feature,2/1/21d488565c079b5009dd0d1d6e0c495ddb5f0655
+h
+8src/test/java/fiuba/ConsultarGastosPorProyectoSteps.java,0/9/09f9868f819551fd6f52b002588c09a319a071a9
+l
+<src/main/java/fiuba/excepciones/TiempoInvalidoException.java,1/f/1f4faed75fc3103f2fbf9014b082a77d27630b4b

@@ -5,6 +5,7 @@ import java.util.List;
 
 import fiuba.excepciones.HorasInvalidasException;
 import fiuba.excepciones.RecursoInvalidoException;
+import fiuba.excepciones.TiempoInvalidoException;
 
 public class Proyecto {
     private static Integer idUniversal = 0;
@@ -12,7 +13,8 @@ public class Proyecto {
     private String nombre;
     private String fechaInicial;
     private String fechaFinal;
-    private Integer mesesEstimados;
+    private Integer tiempoEstimados; //en meses
+    private Integer tiempoTrabajado;
     private Estado estado;
     private List<Tarea> tareas;
     private List<Recurso> recursos;
@@ -28,7 +30,8 @@ public class Proyecto {
         this.fechaInicial = fechaInicial;
         this.fechaFinal = fechaFinal;
         this.estado = Estado.BACKLOG;
-        this.mesesEstimados = mesesEstimados;
+        this.tiempoEstimados = mesesEstimados;
+        this.tiempoTrabajado = 0;
         this.tareas = new ArrayList<>();
         this.recursos = new ArrayList<>();
     }
@@ -70,12 +73,12 @@ public class Proyecto {
     }
 
     public Integer getMesesEstimados() {
-        return mesesEstimados;
+        return tiempoEstimados;
     }
 
     public void setMesesEstimados(Integer mesesEstimados) {
         if (mesesEstimados <= 0) throw new HorasInvalidasException("el tiempo ingresado es incorrecto");
-        this.mesesEstimados = mesesEstimados;
+        this.tiempoEstimados = mesesEstimados;
     }
 
 
@@ -114,7 +117,7 @@ public class Proyecto {
         this.recursos.add(recurso);
     }
 
-    public Integer getSalariosRecursos() {
+    public Integer getCostoRecursos() {
         Integer sumaSalarios = 0;
 
         for (Recurso recurso: this.recursos) {
@@ -122,5 +125,30 @@ public class Proyecto {
         }
 
         return sumaSalarios;
+    }
+
+    public void setTiempoTranscurrido(Integer tiempoTranscurrido) {
+        if (tiempoTranscurrido < 0) throw new TiempoInvalidoException("El tiempo ingresado es invalido");
+        this.setTiempoTrabajado(tiempoTranscurrido);
+    }
+
+    public Integer getTiempoTrabajado() {
+        return tiempoTrabajado;
+    }
+
+    public void setTiempoTrabajado(Integer tiempoTrabajado) {
+        this.tiempoTrabajado = tiempoTrabajado;
+    }
+
+    public Boolean estaTerminado() {
+        return (this.tiempoEstimados == this.tiempoTrabajado);
+    }
+
+    public Boolean estaEnDesarrollo() {
+        return (this.tiempoTrabajado < this.tiempoEstimados);
+    }
+
+    public Boolean noEstaIniciado() {
+        return this.tiempoTrabajado == 0;
     }
 }

@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="5" time="0.25771">
-<testcase classname="Se consulta los atributos de un proyecto" name="Se consulta el estado de un proyecto que se encuentra en revision" time="0.254572">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.345002">
+<testcase classname="Se consulta los atributos de un proyecto" name="Se consulta el estado de un proyecto que se encuentra en revision" time="0.329144">
 <system-out><![CDATA[Dado un proyecto con id 1, el cual cuenta con 3 tareas de 2 hs de duracion estimadas. cada una.passed
 Cuando el recurso "pablo" realiza las tareas con id 1, 2 y 3 en 2 hs cada una.passed
 Entonces el estado del proyecto con id 1, es cambiado a "revision" por el lider de proyecto.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Se consulta los atributos de un proyecto" name="Se consulta la cantidad de horas que consumio un proyecto" time="0.001739">
+<testcase classname="Se consulta los atributos de un proyecto" name="Se consulta la cantidad de horas que consumio un proyecto" time="0.001015">
 <system-out><![CDATA[Dado que se crea un proyecto con 3 tareas de 2 horas cada una...............passed
 Cuando el recurso "alex" realiza las tareas con id 4 y 5, en 1 hora cada uno.passed
 Entonces el tiempo consumido por el proyecto con id 2 es de 2 hs y el tiempo estimado restante es de 4 hs.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Se consulta los atributos de un proyecto" name="Se quiere consultar el estado de un proyecto seteado con parametros invalidos" time="0.000459">
+<testcase classname="Se consulta los atributos de un proyecto" name="Se quiere consultar el estado de un proyecto seteado con parametros invalidos" time="0.000959">
 <system-out><![CDATA[Dado que se crea un proyecto, aun sin tareas................................passed
 Cuando se quiere setear el tiempo estimado del proyecto en meses, con un valor de "-3".passed
 Entonces el atributo de tiempo estimado del proyecto sigue teniendo el valor por default, es decir 0.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Se consulta la cantidad de dinero que consumio un proyecto" name="Se consulta la cantidad de dinero que consumio un proyecto" time="0.00094">
+<testcase classname="Se consulta la cantidad de dinero que consumio un proyecto" name="Se consulta la cantidad de dinero que consumio un proyecto" time="0.011416">
 <system-out><![CDATA[Dado un proyecto de 2 meses de duracion.....................................passed
 Cuando a dicho proyecto, se asignan los recursos "pablo" y "alex" con salarios 12000 y 18000, respectivamente.passed
 Entonces el costo estimado del proyecto es 2 x (12000 + 18000) = 60000......passed
 ]]></system-out>
 </testcase>
-<testcase classname="Se consulta la cantidad de dinero que consumio un proyecto" name="Se consulta la cantidad de dinero que consumio un proyecto en desarrollo" time="0">
-<skipped><![CDATA[Dado un proyecto de 3 meses de duracion estimada, y 2 mes consumido.........undefined
-Cuando a dicho proyecto, se asigna el recurso "pablo" con un salario de 14000.undefined
-Entonces el costo del proyecto es 2 x 14000 = 28000.........................undefined
-]]></skipped>
+<testcase classname="Se consulta la cantidad de dinero que consumio un proyecto" name="Se consulta la cantidad de dinero que consumio un proyecto que todavia esta en desarrollo" time="0.000733">
+<system-out><![CDATA[Dado un proyecto de 3 meses de duracion estimada, el cual lleva 2 meses consumidos.passed
+Cuando a dicho proyecto, se asigna el recurso "pablo" con un salario de 14000.passed
+Entonces el costo del proyecto es de 2 x 14000 = 28000......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Se consulta la cantidad de dinero que consumio un proyecto" name="Se consulta la cantidad de dinero que consumio un proyecto que no esta iniciado" time="0.001735">
+<system-out><![CDATA[Dado un proyecto de 6 meses de duracion estimada............................passed
+Cuando se le asignan 0 recursos al proyecto.................................passed
+Entonces el costo del proyecto es 6 x 0 = 0.................................passed
+]]></system-out>
 </testcase>
 </testsuite>

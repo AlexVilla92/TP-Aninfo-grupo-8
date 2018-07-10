@@ -2,29 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1248efed-ce97-47ab-90cd-d5076f055551" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fiuba/Desarrollador.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fiuba/LiderProyecto.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fiuba/excepciones/ProyectoNoExisteException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fiuba/excepciones/RecursoInvalidoException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/fiuba/ConsultarGastosPorProyectoSteps.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fiuba/excepciones/TiempoInvalidoException.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ea64369cb71b95b7c30f4982811b0e1c5136547" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ea64369cb71b95b7c30f4982811b0e1c5136547" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a5b06d8eddb901f50f34f04f533d336d9fe89e2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34e49b70c44393e6731dcf6bb2a51d780e56b1a1" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34e49b70c44393e6731dcf6bb2a51d780e56b1a1" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3906f1f5762ed747c427b1fe712688d506c75f89" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47da7b5bb5efc9fe8d459b2749f791ab8ad409db" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47da7b5bb5efc9fe8d459b2749f791ab8ad409db" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/5192874b2d708510330addc11e19db5ee111dca8" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/5192874b2d708510330addc11e19db5ee111dca8" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f2923317337e9cee99a8ab14919c8a3f173bf6c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/9393c13accfa8f7f7dccd1deb45e79db5270542d" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/9393c13accfa8f7f7dccd1deb45e79db5270542d" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c87897ea9e867bc12e0a37f178cf8559d293a713" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c87897ea9e867bc12e0a37f178cf8559d293a713" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/Backlog.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/Estado.java" afterPath="$PROJECT_DIR$/src/main/java/fiuba/Estado.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/Desarrollador.java" afterPath="$PROJECT_DIR$/src/main/java/fiuba/Desarrollador.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/Proyecto.java" afterPath="$PROJECT_DIR$/src/main/java/fiuba/Proyecto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/Recurso.java" afterPath="$PROJECT_DIR$/src/main/java/fiuba/Recurso.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/RegistroDeHoras.java" afterPath="$PROJECT_DIR$/src/main/java/fiuba/RegistroDeHoras.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/RegistroProyecto.java" afterPath="$PROJECT_DIR$/src/main/java/fiuba/RegistroProyecto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/Tarea.java" afterPath="$PROJECT_DIR$/src/main/java/fiuba/Tarea.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fiuba/ConsultarAtributosDeProyectoSteps.java" afterPath="$PROJECT_DIR$/src/test/java/fiuba/ConsultarAtributosDeProyectoSteps.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/consularGastosPorProyecto.feature" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/consultarAtributosDeProyecto.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/consultarAtributosDeProyecto.feature" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/consultarHistorialDeTareasPorRecurso.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/consultarGastosPorProyecto.feature" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/excepciones/Desarrollador.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/excepciones/SistemaPsa.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/excepciones/UsuarioNoExisteException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fiuba/excepciones/UsuarioYaCargadoException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fiuba/ConsultarGastosPorProyectoSteps.java" afterPath="$PROJECT_DIR$/src/test/java/fiuba/ConsultarGastosPorProyectoSteps.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/consultarGastosPorProyecto.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/consultarGastosPorProyecto.feature" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber.json" afterPath="$PROJECT_DIR$/target/reports/cucumber.json" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber.xml" afterPath="$PROJECT_DIR$/target/reports/cucumber.xml" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumber/report.js" afterPath="$PROJECT_DIR$/target/reports/cucumber/report.js" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/consularGastosPorProyecto.feature" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/consultarAtributosDeProyecto.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/consultarAtributosDeProyecto.feature" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/consultarHistorialDeTareasPorRecurso.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/consultarGastosPorProyecto.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/consultarGastosPorProyecto.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,102 +38,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="consultarAtributosDeProyecto.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/consultarAtributosDeProyecto.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsultarAtributosDeProyectoSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/fiuba/ConsultarAtributosDeProyectoSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="consultarGastosPorProyecto.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/consultarGastosPorProyecto.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsultarGastosPorProyectoSteps.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/fiuba/ConsultarGastosPorProyectoSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Proyecto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Proyecto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+            <state relative-caret-position="-870">
+              <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1343#1344#0" expanded="true" />
-                <element signature="e#1372#1373#0" expanded="true" />
-                <element signature="e#1405#1406#0" expanded="true" />
-                <element signature="e#1434#1435#0" expanded="true" />
-                <element signature="e#1478#1479#0" expanded="true" />
-                <element signature="e#1514#1515#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#1588#1589#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
-                <element signature="e#1729#1730#0" expanded="true" />
-                <element signature="e#1762#1763#0" expanded="true" />
-                <element signature="e#1814#1815#0" expanded="true" />
-                <element signature="e#1858#1859#0" expanded="true" />
-                <element signature="e#1902#1903#0" expanded="true" />
-                <element signature="e#1938#1939#0" expanded="true" />
-                <element signature="e#1980#1981#0" expanded="true" />
-                <element signature="e#2017#2018#0" expanded="true" />
-                <element signature="e#2274#2275#0" expanded="true" />
-                <element signature="e#2303#2304#0" expanded="true" />
-                <element signature="e#2352#2353#0" expanded="true" />
-                <element signature="e#2388#2389#0" expanded="true" />
-                <element signature="e#2433#2434#0" expanded="true" />
-                <element signature="e#2471#2472#0" expanded="true" />
-                <element signature="e#2509#2510#0" expanded="true" />
-                <element signature="e#2542#2543#0" expanded="true" />
-                <element signature="e#2595#2596#0" expanded="true" />
-                <element signature="e#2639#2640#0" expanded="true" />
-                <element signature="e#2672#2673#0" expanded="true" />
-                <element signature="e#2713#2714#0" expanded="true" />
+                <element signature="e#1362#1363#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
+                <element signature="e#1506#1507#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1612#1613#0" expanded="true" />
+                <element signature="e#1648#1649#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1722#1723#0" expanded="true" />
+                <element signature="e#1778#1779#0" expanded="true" />
+                <element signature="e#1826#1827#0" expanded="true" />
+                <element signature="e#1863#1864#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="e#1948#1949#0" expanded="true" />
+                <element signature="e#1992#1993#0" expanded="true" />
+                <element signature="e#2036#2037#0" expanded="true" />
+                <element signature="e#2072#2073#0" expanded="true" />
+                <element signature="e#2114#2115#0" expanded="true" />
+                <element signature="e#2152#2153#0" expanded="true" />
+                <element signature="e#2410#2411#0" expanded="true" />
+                <element signature="e#2439#2440#0" expanded="true" />
+                <element signature="e#2488#2489#0" expanded="true" />
+                <element signature="e#2524#2525#0" expanded="true" />
+                <element signature="e#2569#2570#0" expanded="true" />
+                <element signature="e#2607#2608#0" expanded="true" />
+                <element signature="e#2645#2646#0" expanded="true" />
+                <element signature="e#2678#2679#0" expanded="true" />
+                <element signature="e#2731#2732#0" expanded="true" />
+                <element signature="e#2775#2776#0" expanded="true" />
+                <element signature="e#2808#2809#0" expanded="true" />
+                <element signature="e#2849#2850#0" expanded="true" />
+                <element signature="e#3749#3750#0" expanded="true" />
+                <element signature="e#3787#3788#0" expanded="true" />
+                <element signature="e#3850#3851#0" expanded="true" />
+                <element signature="e#3904#3905#0" expanded="true" />
+                <element signature="e#3942#3943#0" expanded="true" />
+                <element signature="e#4011#4012#0" expanded="true" />
+                <element signature="e#4052#4053#0" expanded="true" />
+                <element signature="e#4120#4121#0" expanded="true" />
+                <element signature="e#4159#4160#0" expanded="true" />
+                <element signature="e#4207#4208#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecursoInvalidoException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/RecursoInvalidoException.java">
+      <file leaf-file-name="Recurso.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Recurso.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TiempoInvalidoException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/TiempoInvalidoException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Desarrollador.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Desarrollador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,11 +148,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Estado.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Estado.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RegistroDeHoras.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/RegistroDeHoras.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#220#238#0" expanded="true" />
@@ -168,31 +173,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recurso.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Recurso.java">
+      <file leaf-file-name="RegistroProyecto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/RegistroProyecto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Desarrollador.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Desarrollador.java">
+      <file leaf-file-name="Tarea.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Tarea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="-150">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecursoInvalidoException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/RecursoInvalidoException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -249,11 +257,12 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/consultarAtributosDeProyecto.feature" />
         <option value="$PROJECT_DIR$/src/test/java/fiuba/ConsultarAtributosDeProyectoSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/fiuba/Recurso.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fiuba/Desarrollador.java" />
         <option value="$PROJECT_DIR$/src/main/java/fiuba/excepciones/RecursoInvalidoException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fiuba/Proyecto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fiuba/excepciones/TiempoInvalidoException.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/consultarGastosPorProyecto.feature" />
         <option value="$PROJECT_DIR$/src/test/java/fiuba/ConsultarGastosPorProyectoSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fiuba/Proyecto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fiuba/Desarrollador.java" />
       </list>
     </option>
   </component>
@@ -263,7 +272,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="121" />
     <option name="y" value="122" />
     <option name="width" value="1855" />
@@ -284,8 +293,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Tpaninfo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="TP-Aninfo-grupo-8" type="1039202d:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -368,8 +386,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,15 +397,15 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/fiuba" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fiuba.excepciones" />
+      <recent name="fiuba" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="fiuba" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="fiuba.excepciones" />
-      <recent name="fiuba" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -666,40 +685,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunFeatureTest - 2018.07.10 at 00h 32m 04s.xml">
+    <history-entry file="RunFeatureTest - 2018.07.10 at 18h 19m 56s.xml">
       <configuration name="RunFeatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunFeatureTest - 2018.07.10 at 00h 34m 10s.xml">
+    <history-entry file="RunFeatureTest - 2018.07.10 at 18h 20m 29s.xml">
       <configuration name="RunFeatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunFeatureTest - 2018.07.10 at 00h 38m 52s.xml">
+    <history-entry file="RunFeatureTest - 2018.07.10 at 18h 24m 58s.xml">
       <configuration name="RunFeatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunFeatureTest - 2018.07.10 at 00h 55m 43s.xml">
+    <history-entry file="RunFeatureTest - 2018.07.10 at 18h 25m 20s.xml">
       <configuration name="RunFeatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunFeatureTest - 2018.07.10 at 00h 58m 59s.xml">
+    <history-entry file="RunFeatureTest - 2018.07.10 at 18h 26m 03s.xml">
       <configuration name="RunFeatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunFeatureTest - 2018.07.10 at 01h 18m 19s.xml">
+    <history-entry file="RunFeatureTest - 2018.07.10 at 18h 26m 35s.xml">
       <configuration name="RunFeatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunFeatureTest - 2018.07.10 at 01h 25m 41s.xml">
+    <history-entry file="RunFeatureTest - 2018.07.10 at 18h 27m 33s.xml">
       <configuration name="RunFeatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunFeatureTest - 2018.07.10 at 01h 30m 05s.xml">
+    <history-entry file="RunFeatureTest - 2018.07.10 at 18h 35m 21s.xml">
       <configuration name="RunFeatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunFeatureTest - 2018.07.10 at 01h 33m 53s.xml">
+    <history-entry file="RunFeatureTest - 2018.07.10 at 18h 39m 22s.xml">
       <configuration name="RunFeatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunFeatureTest - 2018.07.10 at 01h 35m 44s.xml">
+    <history-entry file="RunFeatureTest - 2018.07.10 at 18h 41m 45s.xml">
       <configuration name="RunFeatureTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -710,13 +728,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29408512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30071864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -728,6 +745,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -735,26 +753,12 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/SistemaPsa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consultarHistorialDeTareasPorRecurso.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consultarHistorialDeTareasPorRecurso.feature" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -897,43 +901,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/HorasInvalidasException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/UsuarioYaCargadoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/UsuarioNoExisteException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fiuba/HorasSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/horas.features.feature" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/SistemaPsa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,22 +918,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Backlog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Estado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Backlog.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/fiuba/RunFeatureTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -969,126 +927,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consultarHistorialDeTareasPorRecurso.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consultarAtributosDeProyecto.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.1.7/cucumber-core-1.1.7.jar!/cucumber/runtime/Utils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="20">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fiuba/ConsultarAtributosDeProyectoSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fiuba/ConsultarGastosPorProyectoSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="88" column="52" lean-forward="true" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consultarGastosPorProyecto.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/SistemaPsa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/HorasInvalidasException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/ProyectoNoExisteException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consultarHistorialDeTareasPorRecurso.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Tarea.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/RecursoInvalidoException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding>
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/RegistroProyecto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/UsuarioNoExisteException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/UsuarioYaCargadoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/TiempoInvalidoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Desarrollador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="108">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
             <element signature="e#134#135#0" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Recurso.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Estado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/RegistroDeHoras.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#220#238#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,92 +1065,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/excepciones/RecursoInvalidoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Proyecto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="124" column="5" lean-forward="true" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+        <state relative-caret-position="-870">
+          <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1588#1589#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1814#1815#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
-            <element signature="e#1938#1939#0" expanded="true" />
-            <element signature="e#1980#1981#0" expanded="true" />
-            <element signature="e#2017#2018#0" expanded="true" />
-            <element signature="e#2274#2275#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
-            <element signature="e#2352#2353#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
-            <element signature="e#2433#2434#0" expanded="true" />
-            <element signature="e#2471#2472#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
-            <element signature="e#2639#2640#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-            <element signature="e#2713#2714#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1612#1613#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1778#1779#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2114#2115#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2488#2489#0" expanded="true" />
+            <element signature="e#2524#2525#0" expanded="true" />
+            <element signature="e#2569#2570#0" expanded="true" />
+            <element signature="e#2607#2608#0" expanded="true" />
+            <element signature="e#2645#2646#0" expanded="true" />
+            <element signature="e#2678#2679#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2808#2809#0" expanded="true" />
+            <element signature="e#2849#2850#0" expanded="true" />
+            <element signature="e#3749#3750#0" expanded="true" />
+            <element signature="e#3787#3788#0" expanded="true" />
+            <element signature="e#3850#3851#0" expanded="true" />
+            <element signature="e#3904#3905#0" expanded="true" />
+            <element signature="e#3942#3943#0" expanded="true" />
+            <element signature="e#4011#4012#0" expanded="true" />
+            <element signature="e#4052#4053#0" expanded="true" />
+            <element signature="e#4120#4121#0" expanded="true" />
+            <element signature="e#4159#4160#0" expanded="true" />
+            <element signature="e#4207#4208#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consultarAtributosDeProyecto.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Recurso.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+        <state relative-caret-position="306">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/RegistroDeHoras.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#238#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/RegistroProyecto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fiuba/ConsultarAtributosDeProyectoSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fiuba/Tarea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consultarGastosPorProyecto.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        <state relative-caret-position="-150">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fiuba/ConsultarGastosPorProyectoSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
